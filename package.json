@@ -1,0 +1,31 @@
+{
+  "name": "@jsumners/http-inspect",
+  "version": "1.0.0",
+  "description": "Instrument http(s) requests to inspect the conversation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test --test-reporter=tap",
+    "test:watch": "node --watch --test"
+  },
+  "author": "James Sumners",
+  "license": "BlueOak-1.0.0",
+  "homepage": "https://github.com/jsumners/http-intercept",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsumners/http-intercept.git"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.5.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "fastify": "^4.25.1",
+    "self-cert": "^2.0.0"
+  },
+  "dependencies": {
+    "hyperid": "^3.1.1",
+    "lru_map": "^0.4.1"
+  }
+}
